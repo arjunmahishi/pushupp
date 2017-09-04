@@ -1,34 +1,36 @@
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>push-upp</title>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>push-upp</title>
 
-    <link rel="manifest" href="/manifest.json">
-    <link rel="shortcut icon" href="icon.jpg" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <link href="vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-     <link href="css/main.css" rel="stylesheet">
-  </head>
+		<link rel="manifest" href="/manifest.json">
+		<link rel="shortcut icon" href="icon.jpg" type="image/x-icon">
+		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+		<link href="vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet">
+
+	</head>
 
 <body>
   
   <center>
     <div class="main" onclick="increment()">
-      <div id="count">0</div>
+		<div id="count">0</div>
+		<p>Swipe down to reset</p>
+		<p>Swipe left to decrement</p>
     </div>
-     <button id="reset"class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent reset" onclick="reset()">
-             Reset
-     </button>
-
-
-      
   </center>
+
 </body>
+
+<script src="vendors/jquery/jquery-1.11.3.min.js"></script>
+<script src="vendors/jquery/jquery.mobile-1.4.5.min.js"></script>
 <script src="js/main.js"></script>
+
 </html>
