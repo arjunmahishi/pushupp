@@ -1,0 +1,15 @@
+{
+  "short_name": "Push Upp",
+  "name": "Push Upp",
+  "icons": [
+    {
+      "src":"/fitness.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#3f51b5"
+}
