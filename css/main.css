@@ -1,0 +1,12 @@
+.main{
+  background-color: #2d2a2a;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  position: fixed;
+}
+#count{
+  margin-top: 19rem;
+    font-size: 20rem;
+    font-weight: 900;
+}

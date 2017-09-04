@@ -8,21 +8,6 @@
     <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   </head>
 
-<style type="text/css">
-.main{
-  background-color: #2d2a2a;
-  height: 100%;
-  width: 100%;
-  color: #fff;
-  position: fixed;
-}
-#count{
-  margin-top: 19rem;
-    font-size: 20rem;
-    font-weight: 900;
-}
-</style>
-
 <body>
   <center>
     <div class="main" onclick="increment()">
@@ -30,14 +15,5 @@
     </div>
   </center>
 </body>
-
-<script type="text/javascript">
-
-function increment(){
-  var count = parseInt(document.querySelector("#count").innerHTML) + 1;
-  document.querySelector("#count").innerHTML = count;
-}
-
-</script>
 
 </html>
