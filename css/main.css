@@ -1,14 +1,17 @@
 .main{
-  background-color: #2d2a2a;
-  height: 100%;
-  width: 100%;
-  color: #fff;
-  position: fixed;
+    background-color: #2d2a2a;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    position: fixed;
 }
 
 #count{
-  margin-top: 19rem;
+    margin-top: 16rem;
     font-size: 20rem;
     font-weight: 900;
 }
 
+#go{
+    margin-top: 3rem;
+}
