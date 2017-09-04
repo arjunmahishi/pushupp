@@ -4,4 +4,3 @@ function increment(){
 }
 function reset(){
   document.querySelector("#count").innerHTML = 0;
-}
